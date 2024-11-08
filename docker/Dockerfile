@@ -1,4 +1,4 @@
-FROM python:3.10.11-alpine
+FROM python:3.11-alpine
 RUN apk add --no-cache --virtual .build-deps \
         libffi-dev \
         gcc \
