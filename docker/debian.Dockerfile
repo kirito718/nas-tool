@@ -1,4 +1,4 @@
-FROM python:3.10.11-slim-bullseye
+FROM python:3.11-slim-bullseye
 COPY --from=shinsenter/s6-overlay / /
 RUN set -xe && \
     export DEBIAN_FRONTEND="noninteractive" && \
